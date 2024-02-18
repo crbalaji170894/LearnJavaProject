@@ -3,11 +3,14 @@ package org.test.learn;
 public class MethodOverridingClassB extends MethodOverRidingClassA {// bangloreLocation
 
 	public void biscuits() {
-		System.out.println("70 Rupees");
+		super.biscuits();
+	 
+		//System.out.println("70 Rupees");
 	}
-	
+
 	public void coolDrinks() {
-		System.out.println("170 Rupees");
+		super.coolDrinks();
+		//System.out.println("170 Rupees");
 	}
 
 	public void oils() {
