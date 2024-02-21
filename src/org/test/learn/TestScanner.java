@@ -16,7 +16,9 @@ public class TestScanner {
 		// immediately press ;
 
 		System.out.println("Thevalueis" + nextInt);
+
 		System.out.println("TheValue is" + nextInt2);
+
 	}
 
 }
