@@ -24,10 +24,7 @@ public class SplitMethodTest {
 //			System.out.println(s2[i]);
 //		}
 		
-		for(String x:s2Array)
-		{
-			System.out.println(x);
-		}
+		
 
 	}
 
