@@ -26,7 +26,7 @@ public class TypesOfString {
 //		System.out.println(System.identityHashCode(s4));
 //
 //		System.out.println(System.identityHashCode(s5));
-		// incase joining it allocates same memory location
+		// in case joining it allocates same memory location
 
 //		StringBuffer s6= new StringBuffer("test");
 //
@@ -44,7 +44,7 @@ public class TypesOfString {
 
 		System.out.println(System.identityHashCode(s9));
 		
-		//in case  of joininh
+		//in case of joining
 		StringBuilder s10 = new StringBuilder("java");
 		
 		StringBuilder append = s8.append(s10);

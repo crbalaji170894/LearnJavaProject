@@ -3,7 +3,7 @@ package org.test.learn;
 public class SplitMethodTest {
 
 	public static void main(String[] args) {
-		String s1 = "Hai Welcome to Java Class at 8PM Scheduled";
+		
 
 		// hai-1
 		// welcome-1
@@ -13,8 +13,9 @@ public class SplitMethodTest {
 		// at-5
 		// 8-PM-7
 		// Scheduled-8
+		String s1 = "Hai Welcome to Java Class at 8PM Scheduled";
 
-		String[] s2Array = s1.split("Hai");
+		String[] s2Array = s1.split(" ");
 //
 //		System.out.println(s2.length);
 
@@ -23,6 +24,11 @@ public class SplitMethodTest {
 //		for (int i = 0; i < s2.length; i++) {
 //			System.out.println(s2[i]);
 //		}
+		
+		for(String stringEachValue:s2Array)
+		{
+			System.out.println(stringEachValue);
+		}
 		
 		
 
