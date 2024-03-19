@@ -7,7 +7,8 @@ public class TestHashMapProgram {
 
 	public static void main(String[] args) {
 
-		String str = "MahaShri";
+		//String str1 ="Test Program Hello Program World Program Hello world";
+		String str = "test";
 
 		LinkedHashMap<Character, Integer> hmap = new LinkedHashMap();
 		// D -1 e-2 p -1 t-1 h-1 i-

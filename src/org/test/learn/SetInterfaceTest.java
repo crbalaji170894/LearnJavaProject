@@ -10,6 +10,10 @@ public class SetInterfaceTest {
 		
 		HashSet hashSet = new HashSet();
 		
+		HashSet<String> hashSet2 = new HashSet();
+		
+		//hashSet2.add(100);
+		
 		hashSet.add(10);
 	
 		hashSet.add(10);
